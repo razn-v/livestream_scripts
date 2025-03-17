@@ -1,2 +1,2 @@
 FROM ubuntu:18.04
-RUN echo 'Hello, World!' > /usr/share/test.txt
+CMD echo "Hello, World!" && tail -f /dev/null
